@@ -1,0 +1,22 @@
+h1 {
+  color: red;
+  font-size: 1.5em;
+}
+
+h1 {
+  color: orange;
+}
+
+small {
+  color: blue;
+}
+
+.navigation {
+  color: yellow;
+}
+.navigation-title {
+  color: aquamarine;
+}
+.navigation-link {
+  text-decoration: none;
+}/*# sourceMappingURL=base.css.map */

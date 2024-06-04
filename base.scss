@@ -1,0 +1,31 @@
+h1{
+    color: red;
+    font-size: 1.5em;
+}
+
+///////VARIABLES EN SASS
+/// 
+/// ///
+$first-color: blue;
+$second-color: red;
+
+h1{
+    $first-color: orange;
+    color: $first-color;
+}
+small{
+    color: $first-color;
+}
+
+//especificidad &=> hace referencia a la clase del elemento padre
+.navigation{
+    color: yellow;
+
+    &-title{
+        color: aquamarine;
+    }
+    &-link{
+        text-decoration: none;
+    } 
+}
+
